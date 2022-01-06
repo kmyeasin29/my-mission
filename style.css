@@ -2,11 +2,14 @@ body{
     font-family: 'Libre Baskerville', serif;
     margin-top: 0;
 }
+p{
+    text-align: justify;
+}
 .hero-section{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 20px;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -81,6 +84,7 @@ span{
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 80px;
 }
 .practice-coding image{
     width: 30%;
@@ -93,4 +97,60 @@ span{
     width: 60%;
     margin-left: 60px;
     line-height: 30px;
+}
+.team-member{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.team-member image{
+    width: 30%;
+    margin-left: 40px;
+
+}
+.about-team-member{
+    width: 60%;
+    margin-right: 60px;
+    line-height: 30px;
+}
+.form-headline{
+    text-align: center;
+    font-size: 40px;
+}
+.contact-us{
+    display: flex;
+    box-shadow: 5px 5px 20px cyan;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    padding-left: 50px;
+}
+.contact-image{
+    width: 30%;
+}
+.form-area{
+    width: 50%;
+    text-align: left;
+    margin-left: 100px;
+}
+footer{
+    text-align: center;
+    background-color: #0b0d17;
+    color: gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+.footer-paragraph{
+    text-align: center;
+}
+.contact-us{
+    text-align: center;
+}
+.form-area{
+    line-height: 10px;
 }

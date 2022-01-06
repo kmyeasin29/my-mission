@@ -1,3 +1,96 @@
 body{
     font-family: 'Libre Baskerville', serif;
+    margin-top: 0;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+
+}
+.image-slice{
+    border-left: 5px cyan solid;
+    border-image-slice: 1;
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: cyan;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+span{
+    color: orange;
+}
+
+.mission-area{
+    width: 45%;
+
+}
+.half-width{
+    width: 30%;
+
+}
+.half-width image{
+    width: 100%;
+}
+.my-mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    margin-bottom: 70px;
+}
+.my-mission image{
+    width: 30%;
+}
+#mission-headline{
+    text-align: center;
+}
+.mission-item{
+    width: 33%;
+}
+.item-one-background{
+    background-color: #fee4cd;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.item-two-background{
+    background-color: #e8f8fb;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.item-three-background{
+    background-color: #fdf7f3;
+    padding: 15px;
+    border-radius: 30px;
+}
+.practice-coding{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.practice-coding image{
+    width: 30%;
+    margin-right: 40px;
+    background-image: url(images/dream-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.practice-coding-description{
+    width: 60%;
+    margin-left: 60px;
+    line-height: 30px;
 }
